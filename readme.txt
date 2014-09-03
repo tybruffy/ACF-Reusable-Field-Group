@@ -1,8 +1,8 @@
 === Advanced Custom Fields: Reusable Field Group Field ===
 Contributors: Tyler Bruffy
-Tags: PLUGIN_TAGS
+Tags: Advanced Custom Fields, ACF
 Requires at least: 3.5
-Tested up to: 3.8.1
+Tested up to: 3.9.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -17,7 +17,6 @@ EXTENDED_Include an existing ACF Field Group in the template for another Field G
 
 This ACF field type is compatible with:
 * ACF 5
-* ACF 4
 
 == Installation ==
 
