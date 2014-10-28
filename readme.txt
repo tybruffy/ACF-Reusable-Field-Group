@@ -27,5 +27,8 @@ This ACF field type is compatible with:
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix for rendering these fields on options pages.
+
 = 1.0.0 =
 * Initial Release.
