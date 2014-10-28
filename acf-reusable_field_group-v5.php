@@ -135,8 +135,17 @@ class acf_field_reusable_field_group extends acf_field {
 	*/
 	
 	function render_field( $field ) {
-		global $post;
-		$current_id = $post->ID;
+		global $post, $self;
+
+		if (is_object($post)) {
+			$current_id = $post->ID;
+		} elseif ($self === "profile.php") {
+			$current_id = "user_" . $_GET["user_id"];
+		} elseif ($self === "comment.php") {
+			$current_id = "comment_" . $_GET["c"];
+		} else {
+			$current_id = "options";
+		}
 		
 		$group  = _acf_get_field_group_by_key($field["group_key"]);
 		$fields = acf_get_fields($group);
