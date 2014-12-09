@@ -37,7 +37,7 @@ class acf_field_reusable_field_group extends acf_field {
 		*  category (string) basic | content | choice | relational | jquery | layout | CUSTOM GROUP NAME
 		*/
 		
-		$this->category = 'Relational';
+		$this->category = 'relational';
 		
 		
 		/*
@@ -101,7 +101,7 @@ class acf_field_reusable_field_group extends acf_field {
 		$groups = acf_get_field_groups();
 		$r      = array();
 
-		$current_id = $post->ID ? $post->ID : $_POST["parent"];
+		$current_id = is_object( $post ) ? $post->ID : $_POST['parent'];
 		$current_group = _acf_get_field_group_by_id($current_id);
 
 		foreach( $groups as $group ) {
