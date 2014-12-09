@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: Reusable Field Group
 Plugin URI: https://github.com/tybruffy/ACF-Reusable-Field-Group
 Description: Include an existing ACF Field Group in the template for another Field Group
-Version: 1.0.0
+Version: 1.0.2
 Author: Tyler Bruffy
 Author URI: https://github.com/tybruffy/
 License: GPLv2 or later

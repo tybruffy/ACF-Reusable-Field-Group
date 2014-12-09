@@ -1,4 +1,4 @@
-# ACF Reusable Field Group
+# ACF Reusable Field Group 1.0.2
 
 This is a plugin which adds a Reusable Field Group type to the Advanced Custom Fields WordPress Plugins.  This allows you to create a group of fields once, and reuse it within any other field group.
 

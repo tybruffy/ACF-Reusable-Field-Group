@@ -27,6 +27,10 @@ This ACF field type is compatible with:
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed notices appearing on certain posts pages.
+* Fixed typo in category.
+
 = 1.0.1 =
 * Fix for rendering these fields on options pages.
 
